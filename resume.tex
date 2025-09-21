@@ -1,4 +1,4 @@
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,12pt]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T2A]{fontenc}
@@ -12,6 +12,7 @@
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
+\usepackage{fontawesome}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
@@ -124,27 +125,86 @@
 
 %----------HEADING-----------------
 \begin{center}
-    {\huge \scshape Знай Артемий} \\ \vspace{1pt}
-    Moscow, Russia \\ \vspace{2pt}
-    \small \raisebox{-0.1\height}\faPhone\ +7 (926) 729-18-07 ~ \href{artem.znay@mail.ru}{\raisebox{-0.2\height}\faEnvelope\  \underline{artem.znay@mail.ru}} ~ 
-    \href{https://github.com/znako}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/znako}}
+    {\huge \scshape Знай Артемий, Frontend Developer}
+    \\ \vspace{1pt}
+    Москва, Россия 
+    \\ \vspace{6pt}
+    \small \raisebox{-0.1\height}\faPhone\ +7 (926) 729-18-07 ~ 
+    \raisebox{-0.1\height}\faPaperPlane\ {@znako\_tg} ~ 
+    \raisebox{-0.1\height}\faEnvelope\  artem.znay@mail.ru~ 
+    \href{https://github.com/znako}{\raisebox{-0.2\height}\faGithub\ \underline{github}} ~
     \vspace{-8pt}
 \end{center}
 
+\vspace{4pt}
 
-%-----------EDUCATION-----------------
-\section{Образование}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-       {Москвоский Авиационный Институт}{Москва, Россия}
-      {Бакалавриат Институт № 8 «Компьютерные науки и прикладная математика»}{09.2021 - настоящее время}
-      \\ \vspace{4pt}
-      {Кафедра 806 «Вычислительная математика и программирование»}
-      \\ \vspace{4pt}
-  \resumeSubHeadingListEnd
+%-----------SelfCharcterisitc--------
+\section{О себе}
+    Фронтенд разработчик с 2+ годами коммерческого опыта. Работал как в небольших компаниях, так и в крупнейшем бигтехе. Занимался техническими и продуктовыми задачами. Декомпозировал и лидил фичи, проектировал архитектуру решений,  менторил стажёра, проводил командные встречи. Разрабатывал проекты на JavaScript, TypeScript, React, также писал на Python.
+
+\vspace{4pt}
+
+%--------PROGRAMMING SKILLS------------
+\section{Навыки}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{\textbf{React, TypeScript, JavaScript, HTML, CSS, SCSS, Python} }
+   }\vspace{-7pt}
+   \item{
+     \textbf{\textbf{Redux (toolkit, saga, observable), RTK Query, RxJS} }
+   }\vspace{-7pt}
+   \item{
+     \textbf{Jest, Hermione, Testplane, Storybook}
+   }\vspace{-7pt}
+   \item{
+     \textbf{Webpack, Vite, CI/CD, git}
+   }\vspace{-7pt}
+   \item{
+     \textbf{Алгоритмы и структуры данных, операционные системы, английский}
+   }
+ \resumeSubHeadingListEnd
+
+\vspace{4pt}
 
 %-----------WORK-----------------
 \section{Опыт работы}
+\resumeSubHeadingListStart
+    \resumeSubheading
+       {ООО "Яндекс.Технологии"}{Москва, Россия}
+      {Frontend-разработчик (Яндекс.Маркет, Яндекс.Еда Вендор)}{03.2024 - н.в} 
+       \\ \vspace{8pt}
+      {Работа в команде из 6 фронтендеров по \textbf{Agile} и в кросс-функциональной}
+      \\ \vspace{0pt}
+      {команде по \textbf{Scrum}}
+      \\ \vspace{8pt}
+      %-----------Распродажи-----------------
+      {- Техническая проработка распродаж на Маркете с низким time-to-market, их разработка и поддержка;}
+      \\ \vspace{8pt}
+      %-----------Биллинг-----------------
+      {- Техлид проекта админки тарифов Маркета. Архитектурная проработка решений, оценка задач,}
+      \\ \vspace{0pt}
+      {распараллеливание, разработка;}
+      \\ \vspace{8pt}
+      %-----------МПД-----------------
+      {- Увеличил конверсию в заказы с доставкой в 5.42 раза за счёт переработки кнопки вызова курьера:}
+      \\ \vspace{0pt}
+      {добавил баннер для привлечения новичков и динамическое отображение минимального оффера;}
+      \\ \vspace{8pt}
+       %-----------Перс.Промик-----------------
+      {- Разработал выдачу персональных промокодов в рамках интеграции Go и Маркета.}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+       {АО "НПО Эшелон"}{Москва, Россия}
+      {Специалист. Центр программных разработок}{02.2024 - 03.2024}
+      \\ \vspace{4pt}
+      {Разработка frontend-части админского веб-приложения для управления }
+      \\ \vspace{0pt}
+      {сетевым маршрутизатором "Рубикон"}
+      \\ \vspace{1pt}
+      {Стек: TS, SCSS, React, Axios, Redux Toolkit, Vite, Material UI, FSD}
+      \\ \vspace{4pt}
+  \resumeSubHeadingListEnd
   \resumeSubHeadingListStart
     \resumeSubheading
        {Администрация города Королев}{Королев, Россия}
@@ -153,109 +213,75 @@
       {на языке Python с использованием библиотеки pandas и Telegram API}
       \\ \vspace{4pt}
   \resumeSubHeadingListEnd
-   \resumeSubHeadingListStart
-    \resumeSubheading
-       {АО "НПО Эшелон"}{Москва, Россия}
-      {Специалист. Центр программных разработок}{02.2024 - 03.2024}
-      \\ \vspace{4pt}
-      {Разработка frontend части админского веб-приложения для управления }
-      \\ \vspace{0pt}
-      {сетевым маршрутизатором "Рубикон"}
-      \\ \vspace{1pt}
-      {Стек: TS, SCSS, React, Axios, Redux Toolkit, Vite, Material UI, FSD}
-      \\ \vspace{4pt}
-  \resumeSubHeadingListEnd
-   \resumeSubHeadingListStart
-    \resumeSubheading
-       {ООО "Яндекс.Технологии"}{Москва, Россия}
-      {Стажер-разработчик }{03.2024 - н.в}
-      \\ \vspace{4pt}
-      {Разработка frontend части веб-приложения ресторанного продукта Яндекс.Еда Вендор}
-      \\ \vspace{4pt}
-  \resumeSubHeadingListEnd
 
-%-----------SelfCharcterisitc--------
-\section{О себе}
-    Меня можно характеризовать как ответственного и трудолюбивого человека. Я люблю программирование и занимаюсь им со средней школы. В 10-11 классе посещал курсы по web-разработке, изучал JS, jQuery. После школы активно самостоятельно изучал JS: читал техническую литературу, проходил как бесплатные, так и платные курсы и писал проекты. Успешно окончил обучение в школе программистов HeadHunter по направлению frontend разработка, пройдя лекционную часть с заданиями и защитив командный проект. Учитывая школьный и вузовский опыт, можно сказать, что я хорошо знаю алгоритмы и структуры данных. Так же изучаю и другие ЯП: C++, Python. Готов учиться новому, изучать новые технологии и применять их в проектах.
+\vspace{4pt}
+ 
+%-----------EDUCATION-----------------
+\section{Образование}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+       {Бакалавр. Прикладная математика и информатика}{Москва, Россия}
+      {Московский Авиационный Институт}{09.2021 - 06.2025}
+      \\ \vspace{4pt}
+  \resumeSubHeadingListEnd
 
 %-----------Projects-----------------
-\section{Проекты}
-  \resumeSubHeadingListStart
-      \resumeProjSubheading
-      {\href{https://github.com/znako/SimpleBank}{\underline{Сайт-лендинг банка}}}{12.2021}
-      {\skill{HTML} \skill{CSS} \skill{JS} }
-          \resumeDesc{Создал landing page. Продумал UI и для его реализации использовал observer API, lazy loading для оптимизации загрузки фотографий, slider.}
+% \section{Проекты}
+%   \resumeSubHeadingListStart
+%       \resumeProjSubheading
+%       {\href{https://github.com/znako/SimpleBank}{\underline{Сайт-лендинг банка}}}{12.2021}
+%       {\skill{HTML} \skill{CSS} \skill{JS} }
+%           \resumeDesc{Создал landing page. Продумал UI и для его реализации использовал observer API, lazy loading для оптимизации загрузки фотографий, slider.}
         
-      % \resumeProjSubheading
-      % {\href{https://github.com/znako/DigitalLibrary}{\underline{Электронный учет книг}}}{04.2022}
-      % { \skill{HTML} \skill{CSS}}
-      %     \resumeDesc{Web-приложение для электронного учета книг. Многостраничный сайт. Работа в команде с backend-разработчиком.}
+%       % \resumeProjSubheading
+%       % {\href{https://github.com/znako/DigitalLibrary}{\underline{Электронный учет книг}}}{04.2022}
+%       % { \skill{HTML} \skill{CSS}}
+%       %     \resumeDesc{Web-приложение для электронного учета книг. Многостраничный сайт. Работа в команде с backend-разработчиком.}
       
-      % \resumeProjSubheading
-      % {\href{https://github.com/znako/PBN}{\underline{Сайт помощи в проектной деятельности}}}{09.2022}
-      % {\skill{HTML} \skill{CSS} \skill{PicoCSS}}
-      %     \resumeDesc{Разработанный по ТЗ сайт для помощи школьникам в проектной деятельности. На сайте есть главная страница, личный кабинет, страница для создания и контроля задач, регистрация и вход. Вся стилизация сделана на основе фреймворка picoCSS. Работа в команде с backend-разработчиком.}
+%       % \resumeProjSubheading
+%       % {\href{https://github.com/znako/PBN}{\underline{Сайт помощи в проектной деятельности}}}{09.2022}
+%       % {\skill{HTML} \skill{CSS} \skill{PicoCSS}}
+%       %     \resumeDesc{Разработанный по ТЗ сайт для помощи школьникам в проектной деятельности. На сайте есть главная страница, личный кабинет, страница для создания и контроля задач, регистрация и вход. Вся стилизация сделана на основе фреймворка picoCSS. Работа в команде с backend-разработчиком.}
 
-      %  \resumeProjSubheading
-      % {\href{https://github.com/znako/Cardio-App}{\underline{Приложение для учета тренировок}}}{03.2023}
-      % {\skill{HTML} \skill{CSS} \skill{JS}}
-      %     \resumeDesc{Web-приложение "Кардио" для учета тренировок. Проект базируется на ООП. Была использована библиотека leaflet для реализации взаимодействия пользователя с картами. Взаимодействие с geolocation API, local storage.}
-      \resumeProjSubheading
-      {\href{https://github.com/znako/React-Quiz}{\underline{Quiz}}}{05.2023}
-      {\skill{React} \skill{redux} \skill{react-router} \skill{axios} \skill{Firebase}}
-          \resumeDesc{Проект представляет из себя веб-приложение для создания и прохождения квизов/викторин. В приложении также имплементированы регистрация и вход. Управление состоянием приложения производится с помощью redux. Во всех формах осуществляется валидация данных. В качестве базы данных и хостинг платформы был выбран Firebase.}
-    \resumeProjSubheading
-      {\href{https://github.com/znako/SlavicMarket/tree/main}{\underline{Slavic Store}}}{12.2023}
-      {\skill{React} \skill{redux-toolkit} \skill{react-router} \skill{axios} \skill{eslint}}
-          \resumeDesc{Учебный проект: "Сервис доставки и отслеживания заказов". Веб-приложение, в котором реализованы 4 роли:
-          \begin{itemize}
-          \item Клиент
-          \begin{itemize}
-            \item Отображение всех товаров
-            \item Корзина
-            \item Профиль для отслеживания заказов
-          \end{itemize}
-          \item Курьер
-          \begin{itemize}
-            \item Отображение всех свободных заказов
-            \item Возможность взять заказ и завершить его
-            \item Профиль для отслеживания своих заказов
-          \end{itemize}
-          \item Магазин
-          \begin{itemize}
-            \item Возможность добавить товар на сайт
-            \item Профиль для отображения всех товаров магазина
-          \end{itemize}
-          \item Администратор
-          \begin{itemize}
-            \item Удаление товаров
-          \end{itemize}
-          \end{itemize}
-        Архитектура frontend-части приложения основана на методологии Feature-Sliced}.
-        Проект выполнялся в команде, состоящей из teamlead'a, двух backend-разработчиков и frontend-разработчика (меня).
+%       %  \resumeProjSubheading
+%       % {\href{https://github.com/znako/Cardio-App}{\underline{Приложение для учета тренировок}}}{03.2023}
+%       % {\skill{HTML} \skill{CSS} \skill{JS}}
+%       %     \resumeDesc{Web-приложение "Кардио" для учета тренировок. Проект базируется на ООП. Была использована библиотека leaflet для реализации взаимодействия пользователя с картами. Взаимодействие с geolocation API, local storage.}
+%       \resumeProjSubheading
+%       {\href{https://github.com/znako/React-Quiz}{\underline{Quiz}}}{05.2023}
+%       {\skill{React} \skill{redux} \skill{react-router} \skill{axios} \skill{Firebase}}
+%           \resumeDesc{Проект представляет из себя веб-приложение для создания и прохождения квизов/викторин. В приложении также имплементированы регистрация и вход. Управление состоянием приложения производится с помощью redux. Во всех формах осуществляется валидация данных. В качестве базы данных и хостинг платформы был выбран Firebase.}
+%     \resumeProjSubheading
+%       {\href{https://github.com/znako/SlavicMarket/tree/main}{\underline{Slavic Store}}}{12.2023}
+%       {\skill{React} \skill{redux-toolkit} \skill{react-router} \skill{axios} \skill{eslint}}
+%           \resumeDesc{Учебный проект: "Сервис доставки и отслеживания заказов". Веб-приложение, в котором реализованы 4 роли:
+%           \begin{itemize}
+%           \item Клиент
+%           \begin{itemize}
+%             \item Отображение всех товаров
+%             \item Корзина
+%             \item Профиль для отслеживания заказов
+%           \end{itemize}
+%           \item Курьер
+%           \begin{itemize}
+%             \item Отображение всех свободных заказов
+%             \item Возможность взять заказ и завершить его
+%             \item Профиль для отслеживания своих заказов
+%           \end{itemize}
+%           \item Магазин
+%           \begin{itemize}
+%             \item Возможность добавить товар на сайт
+%             \item Профиль для отображения всех товаров магазина
+%           \end{itemize}
+%           \item Администратор
+%           \begin{itemize}
+%             \item Удаление товаров
+%           \end{itemize}
+%           \end{itemize}
+%         Архитектура frontend-части приложения основана на методологии Feature-Sliced}.
+%         Проект выполнялся в команде, состоящей из teamlead'a, двух backend-разработчиков и frontend-разработчика (меня).
 
-  \resumeSubHeadingListEnd
-
-%--------PROGRAMMING SKILLS------------
-\section{Hard Skills}
- \resumeSubHeadingListStart
-   \item{
-     \textbf{ \textbf{HTML, CSS, JS, TS, React} }
-   }\vspace{-7pt}
-   \item{
-     \textbf{Технологии: \textbf{Redux (toolkit), Jest, Storybook, Webpack, CI/CD, git} }
-   }\vspace{-7pt}
-   \item{
-     \textbf{Знания}{: Алгоритмы и структуры данных, Операционные системы}
-   }
- \resumeSubHeadingListEnd
- 
-\section{Soft Skills}
- \resumeSubHeadingListStart
-   \item{
-     \textbf{Обучаемость, адаптивность, знание английского языка на уровне чтения документации, работа в команде}
-    }
- \resumeSubHeadingListEnd
+  % \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
